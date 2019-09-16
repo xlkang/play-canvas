@@ -14,6 +14,7 @@ import Pattern from 'bundle-loader?lazy&name=pattern!pages/Pattern';
 import UseImageData from 'bundle-loader?lazy&name=useImageData!pages/UseImageData';
 import Shadow from 'bundle-loader?lazy&name=shadow!pages/Shadow';
 import Gradient from 'bundle-loader?lazy&name=gradient!pages/Gradient';
+import Compose from 'bundle-loader?lazy&name=compose!pages/Compose';
 import NotFound from 'bundle-loader?lazy&name=notFound!pages/NotFound';
 import Loading from 'components/Loading';
 
@@ -38,6 +39,7 @@ const getRouter = () => (
 		<Route path="/useImageData" component={createComponent(UseImageData)}/>
 		<Route path="/shadow" component={createComponent(Shadow)}/>
 		<Route path="/gradient" component={createComponent(Gradient)}/>
+		<Route path="/compose" component={createComponent(Compose)}/>
 		<Route component={createComponent(NotFound)}/>
 	</Switch>
 );

@@ -18,6 +18,7 @@ export default class Nav extends Component {
 					<li><Link to="/useImageData">UseImageData</Link></li>
 					<li><Link to="/shadow">Shadow</Link></li>
 					<li><Link to="/gradient">Gradient</Link></li>
+					<li><Link to="/compose">Compose</Link></li>
 				</ul>
 			</div>
 		)
